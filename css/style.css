@@ -1,2 +1,4 @@
-HEAD:css/style.css .header {
+.container {
+  width: 80%;
+  margin: auto;
 }
