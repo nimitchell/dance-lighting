@@ -1,4 +1,8 @@
+
+
 package.json
+package-lock.json
+.env
 node_modules/.bin/mime
 node_modules/.bin/mime.cmd
 node_modules/.bin/mime.ps1
@@ -1047,4 +1051,3 @@ node_modules/vary/HISTORY.md
 node_modules/vary/index.js
 node_modules/vary/LICENSE
 node_modules/vary/README.md
-package-lock.json
