@@ -1,0 +1,61 @@
+select {
+  width: 175px;
+}
+
+.container-fluid {
+  padding: 10px;
+  background-color: rgb(204, 204, 204);
+  top: 0;
+  position: absolute;
+}
+
+.btn {
+  margin: 20px;
+  background-color: black;
+  border-color: black;
+}
+
+#login-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: white;
+}
+
+#register-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: white;
+}
+
+#icon {
+  margin-top: 4px;
+}
+
+.nav-item {
+  border-right: 1px solid black;
+}
+
+#register-li {
+  border: none;
+}
+
+.nav-item:hover a {
+  color: red;
+}
+
+.register-text {
+  margin-bottom: 15px;
+}
+
+
+
+/* 
+#tech-confirm {
+  border: solid;
+  transform: translate(150px);
+  width: ;
+} */
