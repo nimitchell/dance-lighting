@@ -2117,3 +2117,7 @@ client/dance-lighting-app/node_modules/.bin/webpack
 client/dance-lighting-app/node_modules/.bin/webpack-dev-server
 client/dance-lighting-app/node_modules/.bin/webpack-dev-server.cmd
 client/dance-lighting-app/node_modules/.bin/webpack.cmd
+.idea/.gitignore
+.idea/dance-lighting.iml
+.idea/modules.xml
+.idea/vcs.xml

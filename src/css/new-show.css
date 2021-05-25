@@ -1,0 +1,12 @@
+#add_show h1 {
+    text-align: center;
+}
+
+#add_show form {
+    padding-left:5%;
+    padding-right:5%;
+}
+
+#add_show input, textarea {
+    margin-bottom:10px;
+}
