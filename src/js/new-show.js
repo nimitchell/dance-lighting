@@ -1,3 +1,4 @@
+/*
 // add top rows
 $('#add_show')
 	.append("<div class='row'><h1>Add Show</h1></div>")
@@ -105,12 +106,17 @@ $('#add_form .button').append('<div class="col-12 text-center button_col"></div>
 
 $('#add_form .button_col').append('<input type="button" class="btn btn-dark" value="Create Show" onclick="addShow()" style="width: 20%;">')
 
+*/
 function addShow(){
-	// TODO: Link front end to back end
-	// Display error message in "#error_message"
+	console.log($('#show_start').value);
+	if ($('#show_start').value < new Date().getDate() || $('#show_end').value < new Date().getDate()) {
+		$('#error_message').text('Show dates must be in the future');
+		return false;
+	}
+	// TODO: "/add-show"
 }
 function onLoad() {
-	// TODO: get team name and display in "#team_name"
+	// TODO: "/get-team" and display in "#team_name"
 }
 onLoad();
 
